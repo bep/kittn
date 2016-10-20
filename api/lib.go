@@ -6,6 +6,6 @@ func (KittnStore) GetKittens() string {
 	return ""
 }
 
-func (KittnStore) GetKitten() string {
+func (KittnStore) GetKitten(ID int) string {
 	return ""
 }
